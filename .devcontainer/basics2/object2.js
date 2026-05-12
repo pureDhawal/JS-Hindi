@@ -16,13 +16,13 @@ const regularuser={
     }
 }
 
-console.log(regularuser.fullname.username);
+//console.log(regularuser.fullname.username);
 
 const obj1={ 1:"a",2:"b"}
 const obj2={ 3:"a",4:"b"}
 
 const obj3=Object.assign(obj1,obj2);
-console.log(obj3);
+//console.log(obj3);
 
 const arr=[{
     id:1,
@@ -37,6 +37,21 @@ const arr=[{
     email:"gherg@gmail.com"
 }
 ]
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
+//console.log(Object.keys(tinderuser));
+//console.log(Object.values(tinderuser));
+//console.log(Object.entries(tinderuser));
+
+const course={
+    coursename:"JS in Hindi",
+    price:"999",
+    courseinstructor:"hitesh"
+}
+
+const {courseinstructor}=course;
+console.log(courseinstructor);
+//{
+  //  "name":"Dhawal",
+    //"Address":"14,siddhipuram,colony",
+    //"instructor":"Ayushi"
+//}
+//jason 
